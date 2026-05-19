@@ -34,16 +34,16 @@ Buddy Works presents a clean, pragmatic SaaS identity with a dominant white canv
 - **Line height:** 0.90, 1.00, 1.33, 1.43, 1.45, 1.50, 1.56, 1.71, 1.85, 1.88, 2.29
 - **Letter spacing:** -0.0450em at 80px, -0.0210em at 48px, -0.0120em at 22px and 17px, normal at other sizes
 - **OpenType features:** `"liga" 0`
-- **Role:** Used for all primary text, navigation, body copy, and headings. Variable weights maintain contrast and hierarchy, with tighter tracking on larger display sizes for impact while maintaining legibility on smaller text.
+- **Role:** Used for all primary text, navigation, body copy, transcriptions, example sentences, and headings. Variable weights maintain contrast and hierarchy. **Note:** Transcriptions and example sentences must use this font (IBM Plex Sans) to avoid stretching.
 
-### IBM Plex Mono — Monospaced font for code snippets, technical terms, and labels where fixed-width aesthetic is desired. · `--font-ibm-plex-mono`
+### IBM Plex Mono — Monospaced font for code snippets and technical terms only. · `--font-ibm-plex-mono`
 - **Substitute:** Fira Code
 - **Weights:** 500
 - **Sizes:** 12px
 - **Line height:** 2.00
 - **Letter spacing:** 0.1670em
 - **OpenType features:** `"liga" 0`
-- **Role:** Monospaced font for code snippets, technical terms, and labels where fixed-width aesthetic is desired.
+- **Role:** Monospaced font for code snippets and technical terms. **Prohibited** for transcriptions and example sentences.
 
 ### Type Scale
 

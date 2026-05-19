@@ -48,10 +48,10 @@ const Header = () => {
         visible ? 'translate-y-0' : '-translate-y-full'
       }`}
     >
-      <div className="px-5 pt-5 pb-16">
+      <div className="px-5 pt-5 pb-3">
         <h1 className="text-[22px] font-bold tracking-[-0.264px] mb-16">My Words</h1>
         
-        <div className="flex gap-8 overflow-x-auto no-scrollbar pb-8">
+        <div className="flex gap-8 overflow-x-auto no-scrollbar">
           {categories.map((cat) => (
             <div key={cat.id} className="chip flex-shrink-0 cursor-pointer">
               <cat.icon size={18} className="text-midnight-ink" />
