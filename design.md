@@ -10,7 +10,7 @@ Buddy Works presents a clean, pragmatic SaaS identity with a dominant white canv
 | Name | Value | Token | Role |
 |------|-------|-------|------|
 | Midnight Ink | `#1d2130` | `--color-midnight-ink` | Primary text, deep gray borders, dark accents for UI elements |
-| Cloud White | `#fcfcfd` | `--color-cloud-white` | Primary page background, card surfaces, ghost button backgrounds |
+| Cloud White | `#f4faf6` | `--color-cloud-white` | Primary page background, card surfaces, ghost button backgrounds |
 | Slate Gray | `#d5d9e8` | `--color-slate-gray` | Muted borders, subtle text for supporting information, light shadows |
 | Frost | `#ebeef7` | `--color-frost` | Subtle borders, list item backgrounds, fills for inactive states |
 | Coal Black | `#151720` | `--color-coal-black` | Darkest text for prominent headings, high-contrast icons |
@@ -196,7 +196,7 @@ The page primarily employs a max-width contained layout, allowing content to bre
 
 Quick Color Reference:
 text: #1d2130
-background: #fcfcfd
+background: #f4faf6
 border: #d5d9e8
 accent: #1a67fd
 primary action: #bfff5a (filled action)
@@ -223,7 +223,7 @@ Create a secondary navigation pill: 'Cloud White' (#fcfcfd) background, 'Deep Sp
 :root {
   /* Colors */
   --color-midnight-ink: #1d2130;
-  --color-cloud-white: #fcfcfd;
+  --color-cloud-white: #f4faf6;
   --color-slate-gray: #d5d9e8;
   --color-frost: #ebeef7;
   --color-coal-black: #151720;
@@ -330,7 +330,7 @@ Create a secondary navigation pill: 'Cloud White' (#fcfcfd) background, 'Deep Sp
 @theme {
   /* Colors */
   --color-midnight-ink: #1d2130;
-  --color-cloud-white: #fcfcfd;
+  --color-cloud-white: #f4faf6;
   --color-slate-gray: #d5d9e8;
   --color-frost: #ebeef7;
   --color-coal-black: #151720;

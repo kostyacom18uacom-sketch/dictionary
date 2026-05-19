@@ -15,14 +15,14 @@ const WordList = () => {
   const groups = ["Сьогодні", "Вчора", "Тиждень тому", "Раніше"];
 
   return (
-    <div className="px-24 pb-120 pt-[160px]"> {/* Extra padding top for Header and bottom for Tabbar */}
+    <div className="px-5 pb-120 pt-[120px]"> {/* Extra padding top for Header and bottom for Tabbar */}
       {groups.map((groupName) => {
         const wordsInGroup = mockWords.filter(w => w.group === groupName);
         if (wordsInGroup.length === 0) return null;
 
         return (
           <div key={groupName} className="mb-32">
-            <h2 className="text-14 font-semibold text-slate-gray mb-16 uppercase tracking-wider">{groupName}</h2>
+            <h2 className="text-14 font-semibold text-slate-gray mb-16 uppercase tracking-wider px-2">{groupName}</h2>
             {wordsInGroup.map((word) => {
               // Find global index to determine if it's one of the first 4
               const globalIndex = mockWords.findIndex(w => w.id === word.id);

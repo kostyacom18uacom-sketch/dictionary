@@ -5,7 +5,7 @@
 :root {
   /* Colors */
   --color-midnight-ink: #1d2130;
-  --color-cloud-white: #fcfcfd;
+  --color-cloud-white: #f4faf6;
   --color-slate-gray: #d5d9e8;
   --color-frost: #ebeef7;
   --color-coal-black: #151720;
@@ -24,6 +24,9 @@
   --gradient-mint-blast: radial-gradient(100% 100% at 50% 0px, rgb(93, 247, 182) 0%, rgb(25, 247, 154) 100%);
   --color-sky-surge: #7ae3ff;
   --gradient-sky-surge: radial-gradient(100% 100% at 50% 0px, rgb(122, 227, 255) 0%, rgb(70, 216, 255) 100%);
+
+  /* Custom Shadow for Word Cards */
+  --shadow-card: 0 4px 12px -2px rgba(183, 255, 90, 0.08), 0 2px 6px -1px rgba(183, 255, 90, 0.04);
 
   /* Typography — Font Families */
   --font-ibm-plex-sans: 'IBM Plex Sans', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -108,10 +111,10 @@ body {
   }
 
   .card-default {
-    @apply bg-[--color-cloud-white];
+    @apply bg-white border border-[--color-frost];
     border-radius: var(--radius-cards);
-    padding: 24px;
-    box-shadow: var(--shadow-subtle);
+    padding: 20px;
+    box-shadow: var(--shadow-card);
   }
 
   .chip {

@@ -3,7 +3,7 @@ import { Volume2 } from 'lucide-react';
 
 const WordCard = ({ word, transcription, context, isExpanded, status }) => {
   return (
-    <div className={`card-default mb-16 flex items-start justify-between ${isExpanded ? 'p-24' : 'py-16 px-24'}`}>
+    <div className={`card-default mb-16 flex items-start justify-between`}>
       <div className="flex flex-col gap-8 flex-1">
         <div className="flex items-center gap-12">
           <span className="text-18 font-bold text-midnight-ink">{word}</span>

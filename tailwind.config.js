@@ -8,7 +8,7 @@ export default {
     extend: {
       colors: {
         'midnight-ink': '#1d2130',
-        'cloud-white': '#fcfcfd',
+        'cloud-white': '#f4faf6',
         'slate-gray': '#d5d9e8',
         'frost': '#ebeef7',
         'coal-black': '#151720',

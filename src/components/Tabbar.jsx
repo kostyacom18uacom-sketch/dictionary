@@ -30,7 +30,7 @@ const Tabbar = () => {
 
   return (
     <nav 
-      className={`fixed bottom-0 left-0 right-0 bg-cloud-white z-40 px-24 pb-40 pt-16 transition-transform duration-300 ${
+      className={`fixed bottom-0 left-0 right-0 bg-cloud-white z-40 px-5 pb-5 pt-4 transition-transform duration-300 ${
         visible ? 'translate-y-0' : 'translate-y-full'
       }`}
       style={{ boxShadow: '0 -4px 12px rgba(29, 33, 48, 0.04)' }}
